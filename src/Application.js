@@ -1,7 +1,7 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
 
-import { Navigation, NavigationLink } from './Navigation';
-import { Page } from './Page';
+import { Navigation, NavigationLink } from "./Navigation";
+import { Page } from "./Page";
 
 function Application() {
   return (
@@ -18,7 +18,7 @@ function Application() {
           <NavigationLink to="/notes/cheese">Cheese Ipsum</NavigationLink>
           <NavigationLink to="/notes/cat">Cat Ipsum</NavigationLink>
           <NavigationLink to="/notes/office">Office Ipsum</NavigationLink>
-          <NavigationLink to="/notes/beatles">The Beatles</NavigationLink>
+          <NavigationLink to="/notes/beatles">The Beatles Image</NavigationLink>
         </Navigation>
         <section className="col-span-9 p-4">
           <Routes>
